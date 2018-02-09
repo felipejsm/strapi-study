@@ -30,7 +30,6 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-plugins/
 
 ############################
 # Packages
