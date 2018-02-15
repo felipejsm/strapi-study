@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mytodolist",
+      "handler": "MyTodoList.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mytodolist/:_id",
+      "handler": "MyTodoList.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mytodolist",
+      "handler": "MyTodoList.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mytodolist/:_id",
+      "handler": "MyTodoList.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mytodolist/:_id",
+      "handler": "MyTodoList.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
