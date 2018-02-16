@@ -1,11 +1,16 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "mytodolist",
   "info": {
     "name": "myTodoList",
     "description": ""
   },
   "attributes": {
-    
+    "isChecked": {
+      "type": "boolean"
+    },
+    "toDoName": {
+      "type": "string"
+    }
   }
 }
